@@ -1,0 +1,7 @@
+LET A = 1;
+WHILE(A <= 10)
+BEGIN
+    PRINT(A);
+    PRINT("\n")
+    LET A = A + 1;
+END

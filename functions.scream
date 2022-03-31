@@ -1,0 +1,9 @@
+FUNC SUM(A, B) 
+BEGIN
+    RETURN A + B;
+END
+
+LET A = 5;
+LET B = 10;
+LET C = SUM(A, B);
+PRINT(C);
