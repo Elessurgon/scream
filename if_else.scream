@@ -1,0 +1,19 @@
+
+LET A = 5;
+LET B = 10;
+
+FUNC GRT(A, X)
+BEGIN
+    IF (A > X)
+    BEGIN
+        RETURN "GREATER\n";
+    END
+    ELSE
+    BEGIN
+        RETURN "LESSER OR EQUAL\n";
+    END
+END
+
+
+PRINT(GRT(A, 6));
+PRINT(GRT(B, 6));
